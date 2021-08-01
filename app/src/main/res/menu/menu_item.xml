@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/homeFragment" android:title="Discover" android:icon="@drawable/ic_baseline_control_camera_24"/>
+<item android:id="@+id/mapFragment2" android:title="Search" android:icon="@drawable/ic_baseline_map_24"/>
+<item android:id="@+id/profileFragment2" android:title="Profile" android:icon="@drawable/ic_baseline_person_24"/>
+</menu>

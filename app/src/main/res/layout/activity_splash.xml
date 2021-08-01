@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF5125"
+    tools:context=".UI.SplashActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tomazo"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:textSize="35sp"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif-black"
+        android:id="@+id/namehai"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Work Eat Sleep Repeat."
+        android:textColor="@color/white"
+        android:layout_below="@+id/namehai"
+        android:textSize="15sp"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif-black"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/namehai"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_undraw_hamburger_8ge6"
+        />
+</RelativeLayout>

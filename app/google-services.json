@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "438794899704",
+    "project_id": "tomazo-cd590",
+    "storage_bucket": "tomazo-cd590.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438794899704:android:121f585edb462cebdd2b0d",
+        "android_client_info": {
+          "package_name": "com.example.zomatoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438794899704-aa8ocfll05hc2t2fo624og78072g88lb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zomatoapp",
+            "certificate_hash": "e256d4309ca57e28520c38653e320d95ef90dc47"
+          }
+        },
+        {
+          "client_id": "438794899704-aag6gh77jpnbe08pd12mkmg1pq71j5ga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByht3w6EWRwp4PNpO_SwLM2f2jriKah_4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "438794899704-aag6gh77jpnbe08pd12mkmg1pq71j5ga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

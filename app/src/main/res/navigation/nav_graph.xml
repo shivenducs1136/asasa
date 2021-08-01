@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.zomatoapp.UI.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_discoverRestrauntFragment"
+            app:destination="@id/discoverRestrauntFragment"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:enterAnim="@anim/slide_in_right"
+
+            />
+        <action
+            android:id="@+id/action_homeFragment_to_webFragment"
+            app:destination="@id/webFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapFragment2"
+        android:name="com.example.zomatoapp.UI.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" >
+        <action
+            android:id="@+id/action_mapFragment2_to_serachedCityResultsFragment"
+            app:destination="@id/serachedCityResultsFragment"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:enterAnim="@anim/slide_in_right"
+            />
+        <action
+            android:id="@+id/action_mapFragment2_to_mapRestrauntFragment"
+            app:destination="@id/mapRestrauntFragment"
+            app:popUpTo="@id/mapRestrauntFragment"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:enterAnim="@anim/slide_in_right"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment2"
+        android:name="com.example.zomatoapp.UI.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/serachedCityResultsFragment"
+        android:name="com.example.zomatoapp.UI.SerachedCityResultsFragment"
+        android:label="fragment_serached_city_results"
+        tools:layout="@layout/fragment_serached_city_results" >
+        <action
+            android:id="@+id/action_serachedCityResultsFragment_to_mapFragment2"
+            app:destination="@id/mapFragment2"
+            app:popUpTo="@id/mapFragment2"
+           />
+    </fragment>
+    <fragment
+        android:id="@+id/discoverRestrauntFragment"
+        android:name="com.example.zomatoapp.UI.DiscoverRestrauntFragment"
+        android:label="DiscoverRestrauntFragment" >
+        <action
+            android:id="@+id/action_discoverRestrauntFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/homeFragment"
+
+           />
+    </fragment>
+    <fragment
+        android:id="@+id/mapRestrauntFragment"
+        android:name="com.example.zomatoapp.UI.MapRestrauntFragment"
+        android:label="MapRestrauntFragment" >
+        <action
+            android:id="@+id/action_mapRestrauntFragment_to_mapFragment2"
+            app:destination="@id/mapFragment2"
+/>
+    </fragment>
+    <fragment
+        android:id="@+id/netFragment"
+        android:name="com.example.zomatoapp.NetFragment"
+        android:label="fragment_net"
+        tools:layout="@layout/fragment_net" />
+    <fragment
+        android:id="@+id/webFragment"
+        android:name="com.example.zomatoapp.UI.WebFragment"
+        android:label="WebFragment" >
+        <action
+            android:id="@+id/action_webFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/homeFragment" />
+    </fragment>
+
+</navigation>
